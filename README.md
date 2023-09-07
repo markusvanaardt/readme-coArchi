@@ -1,4 +1,4 @@
-# readme-coArchi
+# About this document
 An idiot's guide to configure coArchi on Archi
 
 # Archimate model, repository and Git integration
