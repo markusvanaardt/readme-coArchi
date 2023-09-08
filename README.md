@@ -32,13 +32,16 @@ From https://www.archimatetool.com/plugins/ download the most recent version of 
 
 To install the plug-in, open Archi and install from the application menu: Help > Manage Plug-ins:
 
-![image](https://user-images.githubusercontent.com/17509273/217603667-ddff409c-8e9e-4fe1-817a-64386b800b05.png)
+![coArchi-manage-plugins](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/8db50362-9750-475d-b769-36405db354d6)
+
+![coArchi-manage-plugins-window](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/d3926b3f-1c90-4753-9ff7-48412012e3d3)
 
 Click [**Install New ...**] and select the downloaded plug-in file.  You may need to restart Archi to activate the plug-in.  Please ensure the plug-in version supports the installed version of Archi.
 
 If your plug-in installation was successful, the [**Collaboration**] menu item will appear on the application menu after restarting Archi.
 
-![image](https://user-images.githubusercontent.com/17509273/217616043-a61adbc4-18b1-406f-9177-99803817f117.png)
+![coArchi-collaborate](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/f0d14202-ae41-451d-8fd7-0e611f824d43)
+
 
 # Preparing your Github account to configure Archi integration
 
@@ -54,13 +57,14 @@ Alternatively, you can follow the steps below:
 4. Select [**Personal access tokens**] and then [**Tokens (classic)**]
 5. Select [**Generate new token**] and then [**Generate new token (classic)**]
 
-![image](https://user-images.githubusercontent.com/17509273/217618727-e1cffefd-eaf2-48c2-bdf7-bc31b6adc75d.png)
+![coArchi-generate-pat](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/8690bd75-8e0e-411e-a782-ec4f767a8e28)
 
 6. Enter your token name, set the token expiry and select the [**repo**] scope for the token
 7. Click [**Generate token**]
 8. Copy the token from the screen and store it securely for configuration purposes.  **IMPORTANT**: YOU CANNOT RETRIEVE THE TOKEN AFTER IT HAS BEEN GENERATED AND DISPLAYED ON THIS PAGE.  IF YOU LOOSE IT YOU WILL NEED TO GENERATE A NEW TOKEN.
 
-![image](https://user-images.githubusercontent.com/17509273/217619619-d1a82044-3abe-45c6-9603-8e00883039cd.png)
+![coArchi-personal-access-token](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/9592e5a7-7242-4165-b440-25730870d818)
+
 
 ## Import the model into Archi from Github
 
@@ -68,7 +72,7 @@ Once you have configured Archi and coArchi, and generated your PAT you will be a
 
 From the Collaboration menu, select [**Import Remote Model to Workspace**].  You may need to provide Archi a master password to unlock this feature.
 
-![image](https://user-images.githubusercontent.com/17509273/217621696-31b1382d-c9fb-46fe-9902-cd2b762a893d.png)
+![coArchi-add-remote-model](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/0a43d30f-8fe4-4254-aeda-c926169aef06)
 
 In the **Add Remote Model** modal, provide the following information:
 
@@ -82,13 +86,14 @@ It is possible that you could use your credentials as-is in the screen.  However
 
 To obtain the repo URL, you can copy of from the **Clone** address:
 
-![image](https://user-images.githubusercontent.com/17509273/217622267-287f3615-f79a-464e-af2d-e51ee35ba9b1.png)
+![coArchi-clone](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/80f0db2f-10f8-4f16-b265-7c6d0d95efb6)
 
 ## Navigating the UI
 
 From the **Collaboration** menu, select [**Toggle Collaboration Workspace**] and [**Toggle Branches View**].  The Workspace and Branch windows will be docked within Archi.  Archi/coArchi supports repository branches.
 
-![image](https://user-images.githubusercontent.com/17509273/217623244-347a6e93-49e8-4849-8fbd-e0d10a12e1d2.png)
+![coArchi-navigate-ui](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/1550ed83-1d36-44ce-a758-cf5d0ea40922)
+
 
 The Collaboration Workspace is used to navigate between different models and individual branches checked out while the Branches View provide the ability to manipulate branches within the selected model. 
 
@@ -102,19 +107,17 @@ To refresh your local copy of the model, open the model / branch from the Collab
 
 To protect the integrity of the main branch and avoid overwriting updates from oneanother, it is recommended to create a branch for each piece of work.  Branches could be named by initials, date or subdomain.  Branches can be created either through the coArchi plugin or online on Github.
 
-![image](https://user-images.githubusercontent.com/17509273/217628704-308d9051-c61a-4b7a-a71a-b28d42f4dce5.png)
+![coArchi-add-branch](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/a817ba35-8eb2-4a92-a329-a86f1a277dc1)
 
 [**Add branch**] will create a local branch while [**Add branch and checkout**] will create the local branch and set it as the active branch.  Neither of these actions will create the upstream branch (on Github server).
 
-![image](https://user-images.githubusercontent.com/17509273/217629681-8016d68b-d048-4c29-b8d2-5a9ca2242905.png)
+![coArchi-switch-branch](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/d768bc12-39ca-4897-8f75-0b29ab939f57)
 
 ## Committing changes
 
 By committing changes you create a local snapshot of the repository into a single package.  **This does not upload the changes to the upstream branch, but create a local packaged copy**.  To commit your latest changes, select [**Commit changes**] from the Collaboration menu.
 
-![image](https://user-images.githubusercontent.com/17509273/217631182-30277689-db0d-4727-8fcc-a07aec2c0cf2.png)
-
-![image](https://user-images.githubusercontent.com/17509273/217631691-a0704965-c59c-42ec-a4c0-c7b2ebfa9b01.png)
+![coArchi-commit](https://github.com/markusvanaardt/readme-coArchi/assets/17509273/f6df32b7-b664-48b6-8bde-573f9d227b8b)
 
 ## Publishing changes
 
