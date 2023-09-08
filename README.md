@@ -1,5 +1,5 @@
 # About this document
-An idiot's guide to configure coArchi on Archi
+A newbie's guide to configuring source control for Archi using coArchi.
 
 # Archimate model, repository and Git integration
 
@@ -31,8 +31,6 @@ Download and install the latest version of Archi from https://www.archimatetool.
 From https://www.archimatetool.com/plugins/ download the most recent version of **coArchi**.
 
 To install the plug-in, open Archi and install from the application menu: Help > Manage Plug-ins:
-
-![image](https://user-images.githubusercontent.com/17509273/217602620-2aec1e61-ec7f-4bff-b5a3-42bdc86ff4f7.png)
 
 ![image](https://user-images.githubusercontent.com/17509273/217603667-ddff409c-8e9e-4fe1-817a-64386b800b05.png)
 
